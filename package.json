@@ -11,7 +11,9 @@
     "start": "npm run dev",
     "build": "ng build",
     "watch": "ng build --watch",
-    "test": "ng test"
+    "test": "ng test",
+    "storybook": "ng run my-app:storybook",
+    "build-storybook": "ng run my-app:build-storybook"
   },
   "dependencies": {
     "@analogjs/content": "^0.2.0-beta.25",
@@ -41,8 +43,17 @@
     "@angular/cli": "^16.1.0",
     "@angular/compiler-cli": "^16.1.0",
     "@nx/vite": "^16.4.0",
-    "nx": "^16.4.0",
+    "@storybook/addon-essentials": "^7.0.26",
+    "@storybook/addon-interactions": "^7.0.26",
+    "@storybook/addon-links": "^7.0.26",
+    "@storybook/angular": "^7.0.26",
+    "@storybook/blocks": "^7.0.26",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "jsdom": "^22.1.0",
+    "nx": "^16.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.26",
     "typescript": "~5.0.2",
     "vite": "^4.3.9",
     "vitest": "^0.32.0"
