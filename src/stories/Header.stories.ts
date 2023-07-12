@@ -1,4 +1,4 @@
-import { moduleMetadata } from '@storybook/angular';
+import { moduleMetadata } from '@storybook/angular/dist/client';
 import type { Meta, StoryObj } from '@storybook/angular';
 import { CommonModule } from '@angular/common';
 
